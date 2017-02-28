@@ -1,3 +1,4 @@
+var salt = Math.floor((1 + Math.random()) * 0x100000).toString(36);
 /**
  * @yugasun
  * 心跳打点程序
